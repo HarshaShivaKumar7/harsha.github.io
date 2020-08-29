@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+#logo {
+    width: 120px;
+    background-color: black;
+    display: flex;
+    height: 38px;
+    margin-top: 18px;
+}
+.navbar {
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 0 4%;
+    width: 92%;
+    height: 70px;
+    line-height: 14px;
+    display: flex;
+    background-color: black;
+}
+.navmenu {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.icon {
+    color: white;
+    z-index: 5;
+    padding-left: 15px;
+    font-size: 12px;
+    line-height: 1.2;
+    transition: color 0.4s;
+    text-decoration: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.icon:hover {
+    color: rgb(192, 192, 192);
+}
+.icon:active {
+    color: white;
+    font-weight: 700;
+
+}
+.rightnav {
+    display: flex;
+    margin-left: auto;
+    width: 191.6;
+    justify-content: space-between;
+}
+#righticon {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+
+}
+#avatar {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    background-color: transparent;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 18px;
+}
